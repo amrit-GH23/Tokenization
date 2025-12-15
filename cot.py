@@ -14,7 +14,6 @@ client = OpenAI(
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
 )
 
-# 1. Refined System Prompt: We explicitly tell it to output ONLY ONE step.
 System_prompt = """
 You are an expert AI assistant. You solve problems using a strict Chain of Thought process.
 Your goal is to reach the answer step-by-step.
